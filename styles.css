@@ -1,0 +1,248 @@
+/* 기본 스타일 설정 */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* 메인 네비게이션 스타일 */
+.main-nav {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul li {
+    margin: 0 20px;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* 네비게이션 호버 효과 */
+.main-nav ul li a:hover {
+    background-color: #555;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* 메인 콘텐츠 섹션 */
+.content {
+    padding: 40px;
+    text-align: center;
+}
+/* 두 하위 네비게이션을 나란히 배치하는 컨테이너 */
+.sub-nav-container {
+    display: flex;
+    justify-content: space-around; /* 두 네비게이션 간의 간격 */
+    margin-top: 30px;
+    gap: 20px; /* 두 네비게이션 사이의 간격 */
+}
+
+/* 하위 네비게이션 스타일 */
+.sub-nav {
+    background-color: #f4f4f4; /* 단색 배경 */
+    padding: 20px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+}
+
+.sub-nav h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333; /* 기본 텍스트 색상 */
+}
+
+.sub-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sub-nav ul li {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.sub-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transition: color 0.1s, background-color 0.1s;
+    border-radius: 5px;
+}
+
+.sub-nav ul li a:hover {
+    color: #fff;
+    background-color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* 호버 시 그림자 */
+}
+
+/* 하위 네비게이션 아이템 왼쪽에 아이콘 추가 */
+.sub-nav ul li a::before {
+    content: '▷'; /* 여기에 원하는 아이콘을 추가할 수 있습니다 */
+    margin-right: 10px;
+    font-size: 14px;
+    color: #777;
+    transition: color 0.3s;
+}
+
+.sub-nav ul li a:hover::before {
+    color: #fff;
+}
+/* 콘텐츠 섹션 스타일 */
+.content {
+    padding: 40px;
+    max-width: 1000px; /* 더 넓은 최대 너비 */
+    margin: auto;
+    text-align: center;
+}
+
+/* 표 스타일 */
+table.volume-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    font-size: 16px;
+    text-align: left;
+}
+
+table.volume-table th, table.volume-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    white-space: nowrap; /* 줄바꿈 방지 */
+}
+
+table.volume-table th {
+    background-color: #333;
+    color: white;
+}
+
+table.volume-table td {
+    white-space: nowrap; /* 내용이 줄바꿈 없이 한 줄에 표시되도록 */
+}
+
+table.volume-table td:first-child {
+    font-weight: bold; /* 첫 번째 컬럼 강조 */
+    background-color: #f4f4f4; /* 좌측 컬럼 강조 */
+    width: 35%; /* 메인 컬럼 너비 설정 */
+}
+
+table.volume-table td:nth-child(2) {
+    width: 65%; /* 설명 컬럼 너비 설정 */
+}
+
+table.volume-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table.volume-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* 이전 페이지로 돌아가기 버튼 스타일 */
+.back-button {
+    margin-top: 30px;
+}
+
+.back-button button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.back-button button:hover {
+    background-color: #555;
+}
+/* 콘텐츠 섹션 스타일 */
+.content {
+    padding: 40px;
+    max-width: 1200px; /* 더 넓은 최대 너비 */
+    margin: auto;
+    text-align: center;
+}
+
+/* 이미지 컨테이너 스타일 */
+.image-container {
+    text-align: center;
+    margin-bottom: 20px; /* 이미지와 표 사이의 간격 */
+}
+
+#product-image {
+    width: 50%; /* 이미지 크기를 원본의 50%로 조정 */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+}
+
+/* 표 스타일 */
+table.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    font-size: 16px;
+    text-align: left;
+}
+
+table.profile-table th, table.profile-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+table.profile-table th {
+    background-color: #333;
+    color: white;
+}
+
+/* Terms 컬럼의 너비 고정 */
+table.profile-table td:first-child {
+    white-space: nowrap; /* 줄바꿈 방지 */
+    width: 25%; /* 적절한 너비를 고정 */
+}
+
+/* 나머지 컬럼은 줄바꿈을 허용 */
+table.profile-table td {
+    word-wrap: break-word; /* 나머지 셀에서 줄바꿈 허용 */
+    background-color: #f9f9f9;
+}
+
+table.profile-table tr:nth-child(even) td {
+    background-color: #f2f2f2;
+}
+
+table.profile-table tr:hover td {
+    background-color: #f1f1f1;
+}
+
