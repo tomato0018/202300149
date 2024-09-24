@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:dc ="http://purl.org/dc/elements/1.1/"
+        xmlns:gr ="http://www.heppnetz.de/projects/goodrelations/"
+        xmlns:sc ="https://schema.org/"
+        xmlns:provoc ="https://ns.inria.fr/provoc/v1/provoc_v1.html"
+        xmlns:pf ="https://tomato0018.github.io/202300149.github.io/pf-terms-eng.html">
+    <rdf:Description rdf:about="https://tomato0018.github.io/202300149.github.io/index.html">
+        <dc:title>Silver Mountain Water</dc:title>
+        <sc:brand>Brand</sc:brand>
+        <dc:location>France</dc:location>
+        <pf:type>Liquid</pf:type>
+        <gr:describtion>A cool, clean and mentholated fragrance, Silver Mountain Water is reminiscent of sparkling icy streams coursing through the snow-capped Swiss Alps.</gr:describtion>
+        <pf:volume>50ml</pf:volume>
+        <provoc:hastarget>Male</provoc:hastarget>
+        <pf:containermaterial>Porcelain</pf:containermaterial>
+        <pf:containershape>Hip Flask shape</pf:containershape>
+        <pf:capmaterial>Silver</pf:capmaterial>
+        <pf:dispensingtype>Spray</pf:dispensingtype>
+        <pf:fregrancecomposition>Top Notes: Bergamot, Blackcurrant, Galbanum, Orange</pf:fregrancecomposition>
+        <pf:fregrancecomposition>Middle Notes: Tea, Ozonic Accord</pf:fregrancecomposition>
+        <pf:fregrancecomposition>Base Notes: Musk, Sandalwood</pf:fregrancecomposition>
+        <pf:Longevity>3~5 hours</pf:Longevity>
+        <dc:periodofterm>3 years after opening</dc:periodofterm>
+        <pf:Ingredients>Ethanol, fragrance, water, limonene, ethylhexyl methoxycinnamate, butyl methoxydibenzoylmethane, ethylhexyl salicylate, linalool, butylphenyl methylpropional, alpha-isomethylionone, citral, coumarin</pf:Ingredients>
+        <gr:additionalproperty>For sale</gr:additionalproperty>
+        <gr:pricespecific>$345</gr:pricespecific>
+        <dc:source>	https://creedboutique.com/products/silver-mountain-water?variant=31459281895521	</dc:source>
+    </rdf:Description>
+</rdf:RDF>
