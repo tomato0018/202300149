@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container Material (용기 재질)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 메인 네비게이션 -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pf-terms-eng.html">PF Terms(eng)</a></li>
+            <li><a href="pf-terms-kor.html">PF Terms(kor)</a></li>
+            <li><a href="example.html">Example</a></li>
+        </ul>
+    </nav>
+
+    <!-- 메인 콘텐츠 -->
+    <section class="content">
+        <h1>Container Material (용기 재질)</h1>
+
+        <!-- 표 -->
+        <table class="volume-table">
+            <tr>
+                <th>Main Column (항목)</th>
+                <th>내용</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Term Name</td>
+                <td>성분</td>
+                <td>Container Material</td>
+            </tr>
+            <tr>
+                <td>Definition (정의)</td>
+                <td>향수를 담는 용기를 제작하는 데 사용되는 재료의 종류를 의미한다.</td>
+                <td>Refers to the type of material used to create the container that holds the perfume..</td>
+            </tr>
+            <tr>
+                <td>Comment (주기)</td>
+                <td>유리, 플라스틱, 세라믹, 도자기, 금속, 스테인리스 스틸, 재활용 재료 등으로 기록할 수 있다.</td>
+                <td>It can be recorded as glass, plastic, ceramic, ceramic, metal, stainless steel, recycled materials, etc.</td>
+            </tr>
+            <tr>
+                <td>Requirment (필수)</td>
+                <td>선택</td>
+                <td>Option</td>
+            </tr>
+            <tr>
+                <td>Repeatable (반복)</td>
+                <td>반복 불가</td>
+                <td>Nonrepeatable</td>
+            </tr>
+            <tr>
+                <td>Search (검색)</td>
+                <td>검색 불가</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Vocabulary (어휘)</td>
+                <td>Perfume Terms</td>
+            </tr>
+            <tr>
+                <td>URI</td>
+                <td>https://tomato0018.github.io/202300149.github.io/containermaterial.html</td>
+            </tr>
+        </table>
+
+        <!-- 이전 페이지로 돌아가기 버튼 -->
+        <div class="back-button">
+            <button onclick="history.back()">Go Back</button>
+        </div>
+    </section>
+
+</body>
+</html>
